@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>ProdTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <h1>ProdTrack</h1>
+    <p>Meu primeiro painel de produtividade.</p>
+    <div class="campo">
+    <label for="horas">Horas trabalhadas:</label>
+    <input type="number" id="horas">
+</div>
+
+<div class="campo">
+    <label for="meta">Meta:</label>
+    <input type="number" id="meta">
+</div>
+
+<div class="campo">
+    <label for="producao">Produção:</label>
+    <input type="number" id="producao">
+</div>
+   
+    <button type="button" id="calcular" >Calcular produtividade</button>
+        <p id="resultado"></p>
+        <h2>Histórico de produtividade</h2>
+<ul id="listaHistorico"></ul>
+    </div>
+
+    <script src="produtividade.js"></script>
+</body>
+</html>
